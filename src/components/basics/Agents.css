@@ -1,0 +1,28 @@
+body{
+    
+}
+.agents-container{
+    width: 33%;
+}
+.agents-info-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.agents-no{
+    text-align: center;
+    width: 20px;
+    height: 20px;
+    border: 1px solid gray;
+    border-radius: 50%;
+    color:  gray;
+}
+.agents-img{
+    width: 100%;
+    height: 300px
+}
+.agents-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
