@@ -1,8 +1,12 @@
 body{
-    
+    background: linear-gradient(to right,#200122, #6f0000);
+    padding: 20px;
 }
 .agents-container{
+    background-color: white;
+    padding: 20px;
     width: 33%;
+    border-radius: 10px;
 }
 .agents-info-container{
     display: flex;
@@ -15,7 +19,11 @@ body{
     height: 20px;
     border: 1px solid gray;
     border-radius: 50%;
-    color:  gray;
+    color: gray;
+   
+}
+.agents-name{
+    font-family:sans-serif
 }
 .agents-img{
     width: 100%;
