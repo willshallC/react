@@ -2,6 +2,9 @@ body{
     background: linear-gradient(to right,#200122, #6f0000);
     padding: 20px;
 }
+.agents-section{
+    display: flex;
+}
 .agents-container{
     position: relative;
     background-color: lightgray;

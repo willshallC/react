@@ -8,7 +8,7 @@ const Agents = () =>{
     const [rad, setRad] = useState(Radianites);
     console.log(rad);
     return(<div>
-        <AgentsCards />
+        <AgentsCards rad={rad} />
     </div>);
 }
 
