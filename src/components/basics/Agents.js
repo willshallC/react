@@ -6,7 +6,6 @@ import AgentsCards from "./AgentsCard";
 const Agents = () =>{
 
     const [rad, setRad] = useState(Radianites);
-    console.log(rad);
     return(<div>
         <AgentsCards rad={rad} />
     </div>);

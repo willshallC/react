@@ -1,8 +1,6 @@
 import React from "react";
 
 const AgentsCards = ({rad}) =>{
-
-    console.log("dsdasd"+rad);
     return(
         <div>
             <section className="agents-section">
@@ -10,7 +8,7 @@ const AgentsCards = ({rad}) =>{
                     rad.map((curData)=>{
                         return (
                             
-                            <div className="agents-container">
+                            <div className="agents-container" key={curData.id}>
                                 <div className="agents-info-container">
                                     <div className="agents-no">{curData.id}</div>
                                     <h3 className="agents-category"><img className="agents-logo" src={curData.icon}/> {curData.category}</h3>
