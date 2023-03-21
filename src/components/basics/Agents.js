@@ -1,5 +1,7 @@
 import React from "react";
 import "./Agents.css"
+import Radianites from "./AgentsApi";
+
 const Agents = () =>{
     return(<div>
         <section className="agents-section">
