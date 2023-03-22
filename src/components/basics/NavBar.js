@@ -6,8 +6,8 @@ const NavBar = ({ filterData }) => {
             <div className="btn-container">
                 <button className="btn" onClick={()=>{filterData("Duelist")}}>Duelists</button>
                 <button className="btn" onClick={()=>{filterData("Controller")}}>Controllers</button>
-                <button className="btn">Sentinels</button>
-                <button className="btn">Initiators</button>
+                <button className="btn" onClick={()=>{filterData("Sentinels")}}>Sentinels</button>
+                <button className="btn" onClick={()=>{filterData("Initiators")}}>Initiators</button>
                 <button className="btn">Maps</button>
             </div>
         </div>

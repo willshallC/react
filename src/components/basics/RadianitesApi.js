@@ -55,6 +55,118 @@ const Radianites = [
         category: "Duelist",
         icon: "images/duelist.png",
         description: "Hailing from the U.K., Phoenix's star power shines through in his fighting style, igniting the battlefield with flash and flare. Whether he's got backup or not, he'll rush into a fight on his own terms.",
+    },
+    {
+        id: 8,
+        name: "OMEN",
+        image: "images/omen.jpg",
+        category: "Controller",
+        icon: "images/controller.png",
+        description: "A phantom of a memory, Omen hunts in the shadows. He renders enemies blind, teleports across the field, then lets paranoia take hold as his foe scrambles to learn where he might strike next."
+    },
+    {
+        id:9,
+        name: "BRIMSTONE",
+        image: "images/brimstone.jpg",
+        category: "Controller",
+        icon: "images/controller.png",
+        description: "Joining from the USA, Brimstone's orbital arsenal ensures his squad always has the advantage. His ability to deliver utility precisely and from a distance makes him an unmatched boots-on-the-ground commander."
+    },
+    {
+        id: 10,
+        name: "HARBOR",
+        image: "images/harbor.png",
+        category: "Controller",
+        icon: "images/controller.png",
+        description: "Hailing from India’s coast, Harbor storms the field wielding ancient technology with dominion over water. He unleashes frothing rapids and crushing waves to shield his allies and pummel those that oppose him."
+    },
+    {
+        id: 11,
+        name: "ASTRA",
+        image: "images/astra.png",
+        category: "Controller",
+        icon: "images/controller.png",
+        description: "Ghanaian Agent Astra harnesses the energies of the cosmos to reshape battlefields to her whim. With full command of her astral form and a talent for deep strategic foresight, she's always eons ahead of her enemy's next move."
+    },
+    {
+        id: 12,
+        name: "SAGE",
+        image: "images/sage.jpg",
+        category: "Sentinels",
+        icon: "images/sentinel.png",
+        description: "The stronghold of China, Sage creates safety for herself and her team wherever she goes. Able to revive fallen friends and stave off aggressive pushes, she provides a calm center to a hellish fight."
+    },
+    {
+        id: 13,
+        name: "KILLJOY",
+        image: "images/killjoy.jpg",
+        category: "Sentinels",
+        icon: "images/sentinel.png",
+        description: "The genius of Germany. Killjoy secures the battlefield with ease using her arsenal of inventions. If the damage from her gear doesn't stop her enemies, her robots' debuff will help make short work of them."
+    },
+    {
+        id: 14,
+        name: "CYPHER",
+        image: "images/cypher.jpg",
+        category: "Sentinels",
+        icon: "images/sentinel.png",
+        description: "The Moroccan information broker, Cypher is a one-man surveillance network who keeps tabs on the enemy's every move. No secret is safe. No maneuver goes unseen. Cypher is always watching."
+    },
+    {
+        id: 15,
+        name: "CHAMBER",
+        image: "images/chamber.png",
+        category: "Sentinels",
+        icon: "images/sentinel.png",
+        description: "Well dressed and well armed, French weapons designer Chamber expels aggressors with deadly precision. He leverages his custom arsenal to hold the line and pick off enemies from afar, with a contingency built for every plan."
+    },
+    {
+        id: 16,
+        name: "SOVA",
+        image: "images/sova.jpg",
+        category: "Initiators",
+        icon: "images/initiator.png",
+        description: "Born from the eternal winter of Russia's tundra, Sova tracks, finds, and eliminates enemies with ruthless efficiency and precision. His custom bow and incredible scouting abilities ensure that even if you run, you cannot hide."
+    },
+    {
+        id: 17,
+        name: "SKYE",
+        image: "images/skye.jpg",
+        category: "Initiators",
+        icon: "images/initiator.png",
+        description: "Hailing from Australia, Skye and her band of beasts trail-blaze the way through hostile territory. With her creations hampering the enemy, and her power to heal others, the team is strongest and safest by Skye’s side."
+    },
+    {
+        id: 18,
+        name: "BREACH",
+        image: "images/breach.jpg",
+        category: "Initiators",
+        icon: "images/initiator.png",
+        description: "Breach, the bionic Swede, fires powerful, targeted kinetic blasts to aggressively clear a path through enemy ground. The damage and disruption he inflicts ensures no fight is ever fair."
+    },
+    {
+        id: 19,
+        name: "FADE",
+        image: "images/fade.png",
+        category: "Initiators",
+        icon: "images/initiator.png",
+        description: "Turkish bounty hunter, Fade, unleashes the power of raw nightmares to seize enemy secrets. Attuned with terror itself, she hunts targets and reveals their deepest fears—before crushing them in the dark."
+    },
+    {
+        id: 20,
+        name: "KAY/O",
+        image: "images/ko.png",
+        category: "Initiators",
+        icon: "images/initiator.png",
+        description: "KAY/O is a machine of war built for a single purpose: neutralizing radiants. His power to suppress enemy abilities cripples his opponents' capacity to fight back, securing him and his allies the ultimate edge."
+    },
+    {
+        id: 21,
+        name: "GEKKO",
+        image: "images/gekko.png",
+        category: "Initiators",
+        icon: "images/initiator.png",
+        description: "Gekko the Angeleno leads a tight-knit crew of calamitous creatures. His buddies bound forward, scattering enemies out of the way, with Gekko chasing them down to regroup and go again."
     }
 ]
 export default Radianites;
