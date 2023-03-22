@@ -74,5 +74,7 @@ body{
     background-color: white;
 }
 .nav-bar .btn:hover{
-    border-bottom: white;
+    border: 3px solid white;
+    background-color: #6f0000;
+    color: white;
 }

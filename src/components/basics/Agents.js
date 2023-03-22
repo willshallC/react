@@ -3,13 +3,21 @@ import "./Agents.css"
 import Radianites from "./RadianitesApi";
 import AgentsCards from "./AgentsCard";
 
+
 const Agents = () =>{
 
     const [rad, setRad] = useState(Radianites);
+
+    const filterData = (category) =>{
+        const newList = Radianites.filter((curElm)=>{
+            return curElm.category === category;
+        })
+        setRad(newList);
+    }
     return(<div>
         <div className="nav-bar">
-            <button className="btn">Duelists</button>
-            <button className="btn">Controllers</button>
+            <button className="btn" onClick={()=>{filterData("Duelist")}}>Duelists</button>
+            <button className="btn" onClick={()=>{filterData("Controller")}}>Controllers</button>
             <button className="btn">Sentinels</button>
             <button className="btn">Initiators</button>
             <button className="btn">Maps</button>
