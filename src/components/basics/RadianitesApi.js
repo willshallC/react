@@ -23,6 +23,38 @@ const Radianites = [
         category: "Controller",
         icon: "images/controller.png",
         description: "The American chemist, Viper deploys an array of poisonous chemical devices to control the battlefield and cripple the enemy's vision. If the toxins don't kill her prey, her mind games surely will."
+    },
+    {
+        id:4,
+        name: "NEON",
+        image: "images/neon.png",
+        category: "Duelist",
+        icon: "images/duelist.png",
+        description: "lorem text", 
+    },
+    {
+        id: 5,
+        name: "RAZE",
+        image: "images/raze.jpg",
+        category: "Duelist",
+        icon: "images/duelist.png",
+        description: "lorem text",
+    },
+    {
+        id: 6,
+        name: "YORU",
+        image: "images/yoru.jpg",
+        category: "Duelist",
+        icon: "images/duelist.png",
+        description: "lorem text",
+    },
+    {
+        id: 7,
+        name: "PHOENIX",
+        image: "images/phoenix.jpg",
+        category: "Duelist",
+        icon: "images/duelist.png",
+        description: "lorem text",
     }
 ]
 export default Radianites;
