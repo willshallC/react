@@ -5,15 +5,14 @@ body{
 .agents-section{
     width: 100%;
     display: flex;
-    justify-content: space-between;
+    flex-wrap: wrap;
     align-items: center;
 }
 .agents-container{
     margin: 25px;
-    position: relative;
     background-color: lightgray;
     padding: 20px;
-    width: 33%;
+    width: 26%;
     border-radius: 10px;
     z-index: 10;
     box-shadow: 0px 0px 6px 6px white
@@ -33,6 +32,11 @@ body{
     border-radius: 50%;
     color: white;
    
+}
+.agents-description{
+    font-weight: bold;
+    font-size: 20px;
+    font-style: italic;
 }
 .agents-name{
     font-family:sans-serif
@@ -66,9 +70,8 @@ body{
     margin: 0;
     padding: 0;
     color:#6f0000;
-    cursor: pointen;
+    cursor: pointer;
     background-color: white;
-
 }
 .nav-bar .btn:hover{
     border-bottom: white;

@@ -30,7 +30,7 @@ const Radianites = [
         image: "images/neon.png",
         category: "Duelist",
         icon: "images/duelist.png",
-        description: "lorem text", 
+        description: "Filipino Agent Neon surges forward at shocking speeds, discharging bursts of bioelectric radiance as fast as her body generates it. She races ahead to catch enemies off guard, then strikes them down quicker than lightning.", 
     },
     {
         id: 5,
@@ -38,7 +38,7 @@ const Radianites = [
         image: "images/raze.jpg",
         category: "Duelist",
         icon: "images/duelist.png",
-        description: "lorem text",
+        description: "Raze explodes out of Brazil with her big personality and big guns. With her blunt-force-trauma playstyle, she excels at flushing entrenched enemies and clearing tight spaces with a generous dose of “boom.”",
     },
     {
         id: 6,
@@ -46,7 +46,7 @@ const Radianites = [
         image: "images/yoru.jpg",
         category: "Duelist",
         icon: "images/duelist.png",
-        description: "lorem text",
+        description: "Japanese native, Yoru, rips holes straight through reality to infiltrate enemy lines unseen. Using deception and aggression in equal measure, he gets the drop on each target before they know where to look. ",
     },
     {
         id: 7,
@@ -54,7 +54,7 @@ const Radianites = [
         image: "images/phoenix.jpg",
         category: "Duelist",
         icon: "images/duelist.png",
-        description: "lorem text",
+        description: "Hailing from the U.K., Phoenix's star power shines through in his fighting style, igniting the battlefield with flash and flare. Whether he's got backup or not, he'll rush into a fight on his own terms.",
     }
 ]
 export default Radianites;
