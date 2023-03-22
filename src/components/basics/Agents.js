@@ -2,6 +2,7 @@ import React,{useState} from "react";
 import "./Agents.css"
 import Radianites from "./RadianitesApi";
 import AgentsCards from "./AgentsCard";
+import NavBar from "./NavBar";
 
 
 const Agents = () =>{
@@ -15,15 +16,7 @@ const Agents = () =>{
         setRad(newList);
     }
     return(<div>
-        <div className="nav-bar">
-            <div className="btn-container">
-                <button className="btn" onClick={()=>{filterData("Duelist")}}>Duelists</button>
-                <button className="btn" onClick={()=>{filterData("Controller")}}>Controllers</button>
-                <button className="btn">Sentinels</button>
-                <button className="btn">Initiators</button>
-                <button className="btn">Maps</button>
-            </div>
-        </div>
+        <NavBar filterData = {filterData}/>
         <AgentsCards rad={rad} />
     </div>);
 }

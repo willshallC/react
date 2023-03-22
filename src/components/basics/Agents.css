@@ -63,7 +63,7 @@ body{
 }
 .nav-bar .btn-container{
     width: auto;
-    border: 5px;
+    border: 5px; 
 }
 .btn{
     width: 100px;
@@ -72,16 +72,17 @@ body{
     font-weight: bold;
     margin: 0;
     padding: 0;
-    color:#6f0000;
+    color:white;
     cursor: pointer;
-    background-color: white;
+    background-color: #6f0000;
     border: none;
+    font-size: 15px;
 }
 .nav-bar .btn:hover{
     /* border: 3px solid white;
-    background-color: #6f0000;
-    color: white; */
-    color: white;
-    background-color: #6f0000;
-    border-bottom: 2px solid white;
+    background-color: white;
+    color: #6f0000; */
+    color: #6f0000;
+    background-color: white;
+    
 }
