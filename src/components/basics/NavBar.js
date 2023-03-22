@@ -1,14 +1,19 @@
 import React from "react";
 
-const NavBar = ({ filterData }) => {
+const NavBar = ({ filterData, list }) => {
     return(<div>
         <div className="nav-bar">
             <div className="btn-container">
-                <button className="btn" onClick={()=>{filterData("Duelist")}}>Duelists</button>
-                <button className="btn" onClick={()=>{filterData("Controller")}}>Controllers</button>
-                <button className="btn" onClick={()=>{filterData("Sentinels")}}>Sentinels</button>
-                <button className="btn" onClick={()=>{filterData("Initiators")}}>Initiators</button>
-                <button className="btn">Maps</button>
+
+                {
+                    list.map((curData)=>{
+                        console.log(curData);
+                        return(
+                            <button className="btn" onClick={()=>{filterData(curData)}}>{curData}</button>
+                            
+                        )
+                    })
+                }
             </div>
         </div>
     </div>)
